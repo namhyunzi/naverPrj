@@ -100,12 +100,6 @@
           },
           {
             "type": 8,
-            "name": "mail.PNG",
-            "relType": 1,
-            "path": "Assets\\"
-          },
-          {
-            "type": 8,
             "name": "map.PNG",
             "relType": 1,
             "path": "Assets\\"
@@ -113,12 +107,6 @@
           {
             "type": 8,
             "name": "news.PNG",
-            "relType": 1,
-            "path": "Assets\\"
-          },
-          {
-            "type": 8,
-            "name": "Pay.PNG",
             "relType": 1,
             "path": "Assets\\"
           },
@@ -148,13 +136,13 @@
           },
           {
             "type": 8,
-            "name": "bell.PNG",
+            "name": "person.png",
             "relType": 1,
             "path": "Assets\\"
           },
           {
             "type": 8,
-            "name": "cart.PNG",
+            "name": "bell.PNG",
             "relType": 1,
             "path": "Assets\\"
           },
@@ -167,6 +155,18 @@
           {
             "type": 8,
             "name": "message.PNG",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "Pay.PNG",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "cart.PNG",
             "relType": 1,
             "path": "Assets\\"
           }
