@@ -169,6 +169,42 @@
             "name": "cart.PNG",
             "relType": 1,
             "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "footerImage1.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "footerImage2.jpg",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "footerImage3.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "right.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "blackNaver.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "whale.png",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },
