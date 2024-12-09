@@ -205,6 +205,12 @@
             "name": "whale.png",
             "relType": 1,
             "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "banner.jpg",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },
