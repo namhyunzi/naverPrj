@@ -1,89 +1,309 @@
-<div data-base="AView" data-class="subView1" class="AView-Style" style="left: 0px; top: 0px; width: 830px; height: 376px; background-color: rgb(239, 239, 239); position: absolute;" data-browser-width="870" data-browser-height="430" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;AButton&quot;,&quot;ALabel&quot;]}">
-    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;">
-        <div style="position: relative; box-sizing: border-box; flex: 3 1 auto; align-self: auto;">
-            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; margin-left: 0px;"></div>
-        </div>
-        <div style="position: relative; box-sizing: border-box; flex: 7 1 auto; align-self: auto;">
-            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; flex-direction: column;">
-                <div style="position: relative; box-sizing: border-box;">
-                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 790px; height: 214px; position: relative; margin-top: 0px; place-content: center; align-items: center; left: 0px; top: 0px; margin-left: auto; margin-right: auto; font-size: 12px;">
-                        <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;" class="">
-                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 172px; position: relative; left: 0px; top: 0px; flex-direction: column; margin-top: 0px; justify-content: center; align-items: stretch; margin-left: 60px; width: 98px;">
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
-                                    </button>
+<div data-base="AView" data-class="subView1" class="AView-Style" style="left: 0px; top: 0px; width: 830px; height: 100%; background-color: rgb(255, 255, 255); position: absolute;" data-browser-width="830" data-browser-height="470" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AImage&quot;]}">
+    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 830px; height: 100%; position: absolute; left: 0px; top: 0px; flex-direction: column; justify-content: flex-start; align-items: center;">
+        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; padding: 0px 0px 10px;" class="">
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 830px; height: 376px; position: relative; left: 0px; top: 0px; margin-top: 0px; padding-left: 20px; padding-right: 20px;">
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 248px; height: 376px; position: relative; left: 0px; top: 0px; flex-direction: column; align-items: center; margin-top: 0px; justify-content: flex-start; margin-left: 0px;">
+                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 248px; height: 88px; position: relative; left: 0px; top: 0px; flex-direction: column; background-color: rgb(249, 251, 253); border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); font-size: 13px; justify-content: center;">
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; justify-content: space-evenly; align-items: center;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(64, 64, 64);">쇼핑</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; margin-left: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(64, 64, 64);">G마켓</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; font-weight: bold;">옥션</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(64, 64, 64);">SSG닷컴</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; place-content: flex-start space-around; margin-top: 3px; margin-bottom: 3px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(64, 64, 64); margin-left: 0px;">11번가</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; margin-left: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; font-weight: bold;">올리브영</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(64, 64, 64);">하프클럽</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;" class="">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px;">이밍 다 알려줘도 왜.."</label>
-                                </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                        <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                    </button>
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; place-content: flex-start space-evenly; margin-top: 3px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(64, 64, 64);">GS SHOP</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; margin-left: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(64, 64, 64);">CJ온스타일</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; color: rgb(211, 213, 215);">•</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; font-weight: bold;">패션플러스</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;" class="">
-                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 98px; height: 172px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center;">
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
-                                    </button>
+                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                            <div data-base="AFlexLayout" data-class="메뉴" class="AFlexLayout-Style" style="height: 80px; position: relative; align-items: flex-start; place-content: center; vertical-align: baseline; flex-flow: column wrap; margin-top: 10px; left: 0px; top: 0px; text-align: left; width: 248px; margin-left: 0px; margin-right: auto; background-color: rgb(249, 251, 253); border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); border-radius: 5px;">
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: 100%; align-self: auto;" class="">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 71px; position: relative; left: 0px; top: 0.75px; flex-direction: column; align-items: center; place-content: flex-start center; width: 54px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 40px; position: relative; left: 0px; top: 0px; width: 40px; margin-top: 0px; border-radius: 50px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226);">
+                                                <img src="Assets/myshopping2.png" style="width: 20px;">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 17px; position: relative; left: 0px; top: 0px; text-align: center; padding-top: 3px;">마이쇼핑</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">주식 투자가 어려운 이유 "타</label>
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: 100%; align-self: auto;" class="">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 71px; position: relative; left: 0px; top: 0.75px; flex-direction: column; justify-content: center; align-items: center; width: 54px;">
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 40px; position: relative; left: 0px; top: 0px; width: 40px; margin-top: 0px; border-radius: 50px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226);">
+                                                <img src="Assets/star2.png" style="width: 20px;">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; text-align: center; left: 0px; top: 0px; padding-top: 3px;">리뷰적립</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">이밍 다 알려줘도 왜.."</label>
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: 100%; align-self: auto;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 71px; position: relative; left: 0px; top: 0.75px; flex-direction: column; justify-content: center; align-items: center; width: 54px;">
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 40px; position: relative; left: 0px; top: 0px; width: 40px; margin-top: 0px; border-radius: 50px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226);">
+                                                <img src="Assets/tackbae3.png" style="width: 20px;">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; text-align: center; left: 0px; top: 0px; padding-top: 3px;">주문</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                        <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                    </button>
+                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: 100%; align-self: auto;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="height: 71px; position: relative; left: 0px; top: 0.75px; flex-direction: column; justify-content: center; align-items: center; width: 54px;">
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 40px; position: relative; left: 0px; top: 0px; width: 40px; margin-top: 0px; border-radius: 50px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226);">
+                                                <img src="Assets/minicart3.png" style="width: 20px;">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box;">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: relative; text-align: center; margin-left: 0px; left: 0px; top: 0px; padding-top: 3px;">장바구니</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
-                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 98px; height: 172px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center;">
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 98px; height: 126px; position: relative; left: 0px; top: 0px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); margin-top: 0px; margin-left: 0px; border-radius: 5px; background-image: url(&quot;Assets/sony.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%;" data-background-option="stretch">
-                                    </button>
+                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 248px; height: 146px; position: relative; left: 0px; top: 0px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); border-radius: 10px; background-image: url(&quot;Assets/boots.jpg&quot;); background-size: 100% 100%; background-repeat: no-repeat; margin-top: 10px;" data-background-option="stretch"></button>
+                        </div>
+                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13.65px; text-align: center;">믿고사는미소페! 겨울할인상품모음</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 532px; height: 376px; position: relative; left: 0px; top: 0px; flex-direction: column; margin-left: 10px;">
+                        <div style="position: relative; box-sizing: border-box;">
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 540px; height: 180px; position: relative; left: 0px; top: 0px; font-size: 13px;">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/puppy.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: -1px; font-size: 13.65px;">주식 투자가&nbsp;</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: -1px; font-size: 13.65px;">이밍 다 알려</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">손흥민이 바르셀로나에 역제</label>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/clothes.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: -1px; font-size: 13.65px;">주식 투자가</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: -1px; font-size: 13.65px;">이밍 다 알려</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">안...‘토트넘 제안 실망..</label>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/mask.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; font-size: 13.65px;">주식 투자가&nbsp;</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; font-size: 13.65px;">이밍 다 알려</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">
-                                        <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                    </button>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/neckperson.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; font-size: 13.65px;">주식 투자가&nbsp;</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; font-size: 13.65px;">이밍 다 알려</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/puppy.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;">주식 투자가 어</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">이밍 다 알려줘</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
-                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 98px; height: 172px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center;">
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 98px; height: 126px; position: relative; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); margin-top: 0px; margin-left: 0px; border-radius: 5px; background-image: url(&quot;Assets/sony.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; left: 0px; top: 0px;" data-background-option="stretch">
-                                    </button>
+                        <div style="position: relative; box-sizing: border-box;">
+                            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 540px; height: 180px; position: relative; left: 0px; top: 0px; font-size: 13px;">
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/padding.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; font-size: 13.65px;">주식 투자가&nbsp;</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; font-size: 13.65px;">이밍 다 알줘</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-top: 0px; left: 0px; top: 0px;">손흥민이 바르셀로나에 역제</label>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/neckperson.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;">주식 투자가 어</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">이밍 다 알려줘</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; margin-top: 0px; left: 0px; top: 0px;">안...‘토트넘 제안 실망..</label>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/mask.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;">주식 투자가 어</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">이밍 다 알려줘</label>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto; margin: 0px 0px 0px 10px;">
-                                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                        <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                    </button>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/clothes.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;">주식 투자가 어</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">이밍 다 알려줘</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="position: relative; box-sizing: border-box;">
+                                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 106px; height: 186px; position: relative; left: 0px; top: 0px; flex-direction: column; justify-content: center; margin-left: 0px; margin-top: 0px; padding-left: 8px; padding-bottom: 14px;">
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;" class="">
+                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 126px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/padding.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; width: 98px;" data-background-option="stretch">
+                                            </button>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;">주식 투자가 어</label>
+                                        </div>
+                                        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px;">이밍 다 알려줘</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: auto;" class="">
+            <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 790px; height: 50px; position: relative; left: 0px; top: 0px; background-color: rgb(245, 247, 248); border-radius: 5px; margin-left: 0px; margin-top: 0px;">
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center; margin: 0px 2px 0px 10px;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 14.7px; font-weight: bold; margin-left: 10px; margin-top: 0px;">오늘의 혜택</label>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(211, 213, 215);">•</label>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center; margin: 0px 2px;">
+                    <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 54px; height: 15px; position: relative; left: 0px; top: 0px;" src="Assets/CjOnStyle.png">
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center; margin: 0px 2px;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-top: 0px; margin-left: 0px; color: rgb(64, 64, 64); font-size: 14.7px;">특가 베스트 상품부터</label>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(152, 88, 245); font-size: 14.7px;">특별 할인 찬스</label>
+                </div>
+                <div style="position: relative; box-sizing: border-box; flex-shrink: 1; flex-basis: auto; align-self: center;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; color: rgb(64, 64, 64); font-size: 14.7px;">까지! 놓치지 마세요!</label>
                 </div>
             </div>
         </div>

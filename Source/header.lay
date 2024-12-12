@@ -1,0 +1,124 @@
+<div data-base="AView" data-class="AView" class="AView-Style" style="left: 0px; top: 0px; width: auto; height: auto; background-color: rgb(239, 239, 239); position: absolute;" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AButton&quot;,&quot;AFlexLayout&quot;,&quot;ALabel&quot;]}" data-browser-height="250" data-browser-width="1280">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 1280px; height: 250px; position: relative; left: calc(50% - 640px); top: 0px; background-color: rgb(255, 255, 255); margin-top: 0px;">
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; position: relative; height: 60px; margin-left: 0px; margin-top: 0px; background-color: rgb(255, 255, 255);">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 32px; height: 32px; position: relative; left: 0px; top: 0px; float: left; margin-right: 15px; margin-top: 10px;">
+                <img src="Assets/menu.PNG">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 32px; height: 32px; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 10px; float: left;">
+                <img src="Assets/Pay.PNG">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 32px; height: 32px; position: relative; left: 0px; top: 0px; margin-left: 15px; float: right; margin-top: 10px;">
+                <img src="Assets/message.PNG">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 32px; height: 32px; position: relative; left: 0px; top: 0px; float: right; margin-left: 15px; margin-top: 10px;">
+                <img src="Assets/cart.PNG">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 32px; height: 32px; position: relative; left: 0px; top: 0px; float: right; margin-left: 0px; margin-top: 10px;">
+                <img src="Assets/bell.PNG">
+            </button>
+        </div>
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 707.81px; position: relative; background-color: rgb(255, 255, 255); border-radius: 33px; border-width: 1px; border-style: solid; border-color: rgb(3, 199, 90); left: 0px; top: 0px; height: 58px; margin-left: auto; margin-right: auto;">
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 39px; height: 40px; position: absolute; left: 30px; top: 10px;">
+                <img src="Assets/N-logo.png" style="width: 24px;">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 30px; height: 40px; position: absolute; left: 560px; top: 10px;">
+                <img src="Assets/keyboard.png" style="width: 24px;">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 31px; height: 20px; position: absolute; left: 600px; top: 20px;">
+                <img src="Assets/down.png" style="width: 10px;">
+            </button>
+            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 39px; height: 40px; position: absolute; left: 630px; top: 10px;">
+                <img src="Assets/search.png" style="width: 25px;">
+            </button>
+        </div>
+        <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 620px; height: 80px; position: absolute; left: 330px; top: 118px; margin-top: 10px; margin-left: auto; margin-right: auto;">
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 76px; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/mail.PNG" style="width: 50px;">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">메일</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/cafe.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">카페</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/blog.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">블로그</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/store.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">스토어</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/news.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">뉴스</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/stock.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">증권</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/property.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">부동산</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/map.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">지도</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/webtoon.PNG">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">웹툰</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 50px; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 49px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/chzzk_last.png">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: auto; position: absolute; left: 0px; top: 50px; font-size: 13.65px; text-align: center; background-color: rgba(0, 0, 0, 0);">치지직</label>
+                </div>
+            </div>
+            <div style="position: relative; box-sizing: border-box; flex: 1 1 auto; align-self: auto;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 50px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255);">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 50px; height: 50px; position: absolute; left: 0px; top: 0px;">
+                        <img src="Assets/more.PNG">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
