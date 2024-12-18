@@ -1,5 +1,5 @@
-<div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; background-color: rgb(239, 239, 239); position: relative; left: 0px; top: 0px; margin-top: 0px; margin-left: 0px;" data-browser-height="3000" data-browser-width="1280" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AImage&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AGridLayout&quot;]}">
-    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 3000px; position: relative; top: 0px; left: 0px; margin-left: 0px; margin-top: 0px; width: 1280px;">
+<div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; background-color: rgb(239, 239, 239); position: relative; left: 0px; top: 0px; margin-top: 0px; margin-left: 0px;" data-browser-height="3010" data-browser-width="1280" data-class-map="{&quot;afc&quot;:[&quot;AView&quot;,&quot;AImage&quot;,&quot;ALabel&quot;,&quot;AButton&quot;,&quot;AGridLayout&quot;,&quot;ATabView&quot;,&quot;AFlexLayout&quot;]}" data-max-alabel="1" data-max-aview="1">
+    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 3000px; position: relative; top: 0px; left: 0px; margin-left: 0px; margin-top: 0px; width: 1280px; background-color: rgb(255, 255, 255);">
         <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; position: relative; background-color: rgb(255, 255, 255); height: 3000px; float: left; margin-left: 0px; margin-top: 0px;">
             <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="height: 130px; position: relative; left: 0px; top: 0px; margin-top: 0px; background-image: url(&quot;Assets/banner.jpg&quot;); border-radius: 10px; width: 830px;">
             <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: 410px; position: relative; left: 0px; top: 0px; border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); background-color: rgb(255, 255, 255); margin-top: 16px;">
@@ -190,7 +190,7 @@
                     </button>
                 </div>
             </div>
-            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: 560px; position: relative; background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; margin-top: 16px;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: auto; position: relative; background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; margin-top: 16px;">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255); padding: 18px 20px 17px; margin-left: 0px; margin-top: 0px;">
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; font-size: 16.8px; left: 0px; top: 0px;">쇼핑</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(160, 173, 178); font-size: 16.8px; left: 0px; top: 0px; margin-left: 5px; margin-right: 5px;">•</label>
@@ -208,7 +208,15 @@
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; float: right; padding-right: 10px; padding-top: 5px;">/13</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; float: right; left: 0px; top: 0px; padding-right: 10px; padding-top: 5px;">1</label>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); text-align: center; padding: 10px 0px 11px; margin-top: 440px; border-top: 1px solid rgb(227, 229, 232); margin-left: 0px; font-size: 13.65px;">
+                <div data-base="ATabView" data-class="ATabView" class="ATabView-Style" data-state="0" style="width: 830px; height: auto; position: relative; left: 0px; top: 0px;">
+                    <div class="tab_area">
+                        <span class="ATabView_select">tab1</span>
+                        <span class="ATabView_deselect">tab2</span>
+                        <span class="ATabView_deselect">tab3</span>
+                    </div>
+                    <div class="tab_contents"></div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); text-align: center; padding: 10px 0px 11px; border-top: 1px solid rgb(227, 229, 232); margin-left: 0px; font-size: 13.65px;">
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 36px; height: 36px; position: relative; left: 0px; top: 0px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); border-radius: 50px; transform: rotate(180deg); text-align: left;">
                         <img src="Assets/right.png" style="margin: 11px 12px; width: 10px; height: 12px;">
                     </button>
@@ -224,9 +232,9 @@
                     </button>
                 </div>
             </div>
-            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: 1144.84px; position: relative; background-color: rgb(255, 255, 255); margin-top: 16px; border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 830px; height: 1184px; position: relative; background-color: rgb(255, 255, 255); margin-top: 16px; border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; margin-left: 0px; left: 0px; top: 0px;">
                 <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255); padding: 18px 20px 17px; margin-left: 0px;">
-                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; font-size: 16.8px; left: 0px; top: 0px;">추천•구독</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; font-size: 16.8px; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;">추천•구독</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(131, 131, 131); font-size: 16.8px; left: 0px; top: 0px; margin-left: 5px; margin-right: 5px;">•</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(131, 131, 131); font-size: 16.8px; left: 0px; top: 0px;">/</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(131, 131, 131); font-size: 16.8px; margin-left: 5px; margin-right: 5px;">자동차</label>
@@ -247,7 +255,7 @@
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; color: rgb(131, 131, 131); font-size: 16.8px;">/</label>
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; color: rgb(131, 131, 131); font-size: 16.8px; margin-left: 5px; margin-right: 5px;">게임</label>
                 </div>
-                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; position: relative; background-color: rgb(245, 247, 248); padding: 12px 20px; margin: 0px 20px; height: 50px;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; position: relative; background-color: rgb(245, 247, 248); padding: 12px 20px; margin: 0px 20px 18px; height: 50px;">
                     <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 14.7px; float: right; margin-left: 0px; margin-right: 3px; font-weight: bold;">구독홈</label>
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 30px; position: relative; left: 0px; top: 0px; width: 40px; border-style: none; border-radius: 14px; color: rgb(255, 255, 255); background-color: rgb(82, 144, 255); margin-left: 0px; margin-right: 3px;">인기</button>
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 30px; position: relative; left: 0px; top: 0px; width: 40px; border-radius: 15px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); margin-left: 0px; margin-right: 3px;">동물</button>
@@ -256,196 +264,148 @@
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 30px; position: relative; left: 0px; top: 0px; width: 40px; border-radius: 15px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); margin-left: 0px; margin-right: 3px;">영화</button>
                     <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 30px; position: relative; left: 0px; top: 0px; width: 40px; border-radius: 15px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226);">육아</button>
                 </div>
-                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: auto; height: 641.94px; position: relative; padding-top: 16px; margin-left: 9px; margin-right: auto; margin-top: 0px;">
+                <div data-base="AGridLayout" data-class="AGridLayout" class="AGridLayout-Style" style="width: 100%; height: 500px; position: relative; margin-left: 0px; margin-right: auto; left: 0px; top: 0px; padding-right: 20px;">
                     <table cellpadding="0" cellspacing="0">
                         <colgroup>
-                            <col width="182.5px">
-                            <col width="182.5px">
-                            <col width="182.5px">
-                            <col width="182.5px">
+                            <col width="202px">
+                            <col width="202px">
+                            <col width="202px">
+                            <col width="202px">
                         </colgroup>
                         <tbody>
                             <tr>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); padding: 0px 0px 10px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="padding: 0px 0px 20px 20px; height: 210px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px;">
-                                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 10px 10px;">
-                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
-                                            </button>
-                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                                <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                            </button>
-                                        </div>
-                                    </div>
-                                </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 10px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="padding: 0px 0px 20px 20px; height: 210px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 10px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="padding: 0px 0px 20px 20px; height: 210px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td style="padding: 0px 0px 20px 20px; height: 210px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                            <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                        </button>
-                                    </div>
-                                </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
-                                        </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                            <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                        </button>
-                                    </div>
-                                </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
-                                        </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
-                                            <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
-                                        </button>
-                                    </div>
-                                </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
-                                        </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
-                                <td style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td style="height: 210px; padding: 0px 0px 20px 20px;" class="">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
                                 </td>
-                                <td class="" style="height: 213.98px;">
-                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 213.98px; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-top: 0px; margin-left: 0px; padding: 0px 0px 20px 10px;">
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px;" data-background-option="stretch">
+                                <td class="" style="height: 210px; padding: 0px 0px 20px 20px;">
+                                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; background-color: rgba(0, 0, 0, 0); margin-left: 0px; left: 0px; top: 0px;">
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 120px; position: relative; left: 0px; top: 0px; margin-top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); background-image: url(&quot;Assets/post.jpg&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-left: 0px; display: inline; margin-bottom: 5px; width: 180px;" data-background-option="stretch">
                                         </button>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 12px; margin-left: -1px; margin-top: 2px;">주식 투자가 어려운 이유 "타</label>
-                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 12px;">이밍 다 알려줘도 왜.."</label>
-                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px;">
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; position: relative; left: 0px; top: 0px; font-size: 14px; margin-left: 0px; height: 20px;">주식 투자가 어려운 이유&nbsp;</label>
+                                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 182.5px; height: 20px; position: relative; left: 0px; top: 0px; margin-left: -1px; margin-top: 2px; font-size: 14px;">타이밍 다 알려줘도 왜..</label>
+                                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 180px; height: 20px; position: relative; left: 0px; top: 0px; font-size: 13.65px; padding-top: 4px; text-align: left;">
                                             <img src="Assets/minilogo1.png" style="width: 25px; height: 25px;"> 월급쟁이부자들
                                         </button>
                                     </div>
@@ -454,8 +414,240 @@
                         </tbody>
                     </table>
                 </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 790px; height: 60px; position: relative; left: 0px; top: 0px; background-color: rgb(255, 255, 255); padding-top: 18px; padding-right: 20px; padding-bottom: 17px; margin-left: auto; margin-right: auto; border-top: 1px solid rgb(227, 229, 232); margin-top: 190px;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-weight: bold; font-size: 15.75px; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px; float: left;">매일 찾는 짧은 즐거움</label>
+                </div>
+                <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 789.98px; height: 230px; position: relative; margin-right: auto; justify-content: space-between; margin-top: 0px; margin-left: auto;">
+                    <div style="position: relative; box-sizing: border-box;" class="">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 108.33px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: -2.01563px;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108.33px; height: 156px; position: relative; left: 0px; top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: left;">
+                                <img src="Assets/sports.png" style="width: 108px; height: 156px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 10px; font-size: 13px;">[AI 클립] 3세트</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 0px; margin-left: 0px; font-size: 13px;">김연경 득점...</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(96, 96, 96);">프로배구 네이버</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 108.33px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: -2.01563px;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108.33px; height: 156px; position: relative; left: 0px; top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: left;">
+                                <img src="Assets/sports.png" style="width: 108px; height: 156px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 10px; font-size: 13px;">[AI 클립] 3세트</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 0px; margin-left: 0px; font-size: 13px;">김연경 득점...</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(96, 96, 96);">프로배구 네이버</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 108.33px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: -2.01563px;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108.33px; height: 156px; position: relative; left: 0px; top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: left;">
+                                <img src="Assets/sports.png" style="width: 108px; height: 156px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 10px; font-size: 13px;">[AI 클립] 3세트</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 0px; margin-left: 0px; font-size: 13px;">김연경 득점...</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(96, 96, 96);">프로배구 네이버</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 108.33px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: -2.01563px;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108.33px; height: 156px; position: relative; left: 0px; top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: left;">
+                                <img src="Assets/sports.png" style="width: 108px; height: 156px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 10px; font-size: 13px;">[AI 클립] 3세트</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 0px; margin-left: 0px; font-size: 13px;">김연경 득점...</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(96, 96, 96);">프로배구 네이버</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 108.33px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: -2.01563px;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108.33px; height: 156px; position: relative; left: 0px; top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: left;">
+                                <img src="Assets/sports.png" style="width: 108px; height: 156px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 10px; font-size: 13px;">[AI 클립] 3세트</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 0px; margin-left: 0px; font-size: 13px;">김연경 득점...</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(96, 96, 96);">프로배구 네이버</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 108.33px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); margin-left: -2.01563px;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108.33px; height: 156px; position: relative; left: 0px; top: 0px; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: left;">
+                                <img src="Assets/sports.png" style="width: 108px; height: 156px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 10px; font-size: 13px;">[AI 클립] 3세트</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; margin-top: 0px; margin-left: 0px; font-size: 13px;">김연경 득점...</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; left: 0px; top: 0px; display: inline-block; color: rgb(96, 96, 96);">프로배구 네이버</label>
+                        </div>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0); text-align: center; padding: 10px 0px 11px; margin-top: 30px; border-top: 1px solid rgb(227, 229, 232); margin-left: 10px; font-size: 13.65px;">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 80px; height: 22px; position: relative; left: 0px; top: 0px; font-size: 13.65px; font-weight: bold;" data-aftertext="true">펼쳐보기
+                        <img src="Assets/plus.png" style="width: 10px; height: 10px; margin: 0px 1px 5px 0px;">
+                    </button>
+                </div>
             </div>
         </div>
-        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: 3000px; position: relative; top: 0px; background-color: rgb(233, 183, 183); left: 0px; margin-left: 0px; margin-top: 0px; float: right;"></div>
+        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: 3000px; position: relative; top: 0px; background-color: rgb(255, 255, 255); left: 0px; margin-left: 0px; margin-top: 0px; float: right;">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: 164px; position: relative; margin-right: auto; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; margin-left: 0px; padding: 21px 20px 18px; left: 0px; top: 0px;">
+                <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 20px; position: relative; text-align: center; font-size: 14.7px; font-weight: bold; display: block;">네이버를 더 안전하고 편리하게 이용하세요</label>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 100%; position: relative; color: rgb(255, 255, 255); border-radius: 5px; text-align: center; background-color: rgb(3, 199, 90); height: 50px; font-size: 14.7px; margin-top: 13px; margin-left: auto; margin-right: auto; display: block; left: 0px;">
+                    <img src="Assets/naver.png" style="width: 72px; margin: 0px 0px 5px;"> 로그인
+                </button>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 20px; position: relative; margin-top: 16px; background-color: rgba(0, 0, 0, 0); display: inline-block; text-align: center; font-size: 13.65px;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: inline;">아이디 찾기</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: inline;">|</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: inline;">비밀번호 찾기</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: inline;">|</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: inline;">회원가입</label>
+                </div>
+            </div>
+            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 420px; height: 240px; position: relative; left: 0px; top: 0px; border-radius: 10px; margin-top: 16px;" src="Assets/ad1.jpg">
+            <img data-base="AImage" data-class="AImage" class="AImage-Style" style="width: 100%; height: 80px; position: relative; background-image: url(&quot;Assets/ad2.png&quot;); border-radius: 10px; margin-top: 16px;" src="Assets/ad2.png">
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: 172px; position: relative; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; margin-top: 16px; padding: 18px;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 80px; height: 136px; position: relative; background-color: rgba(0, 0, 0, 0); float: left; font-size: 17px;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 80px; height: 23px; position: relative; top: 0px; margin-left: 0px; margin-top: 0px; font-family: sans-selif; font-size: 17px; font-weight: bold; left: 0px;">주목할</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 80px; height: 23px; position: relative; top: 0px; font-family: sans-selif; font-size: 17px; font-weight: bold; margin-top: 0px; left: 0px;">만한</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 80px; height: 23px; position: relative; top: 0px; font-family: sans-selif; font-size: 17px; font-weight: bold; left: 0px;">상품은?</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="height: 20px; position: absolute; border-radius: 5px; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); text-align: center; width: 30px; font-size: 13px; margin-top: 0px; margin-right: 0px; left: 0px; top: 110px; padding: 3px;">AD</label>
+                </div>
+                <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 286px; height: 136px; position: relative; display: flex; float: right; justify-content: space-between;">
+                    <div style="position: relative; box-sizing: border-box;" class="">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 90px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 90px; height: 90px; position: relative;">
+                                <img src="Assets/product1.jpg" style="width: 90px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; display: block; font-size: 14px;">[1+1이벤트]</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; display: block; font-size: 14px;">정수기 렌..</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 90px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 90px; height: 90px; position: relative;">
+                                <img src="Assets/product1.jpg" style="width: 90px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; display: block; font-size: 14px;">[1+1이벤트]</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; display: block; font-size: 14px;">정수기 렌..</label>
+                        </div>
+                    </div>
+                    <div style="position: relative; box-sizing: border-box;">
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 90px; height: 100%; position: relative; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0);">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 90px; height: 90px; position: relative;">
+                                <img src="Assets/product1.jpg" style="width: 90px;">
+                            </button>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; display: block; font-size: 14px;">[1+1이벤트]</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: 20px; position: relative; display: block; font-size: 14px;">정수기 렌..</label>
+                        </div>
+                    </div>
+                </div>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="height: 32px; position: absolute; border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); border-radius: 50px; transform: rotate(180deg); z-index: 1; left: 420px; margin-left: -320px; top: 60px; width: 32px;">
+                    <img src="Assets/right.png" style="margin: 5px; width: 10px;">
+                </button>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 32px; height: 32px; position: absolute; border-color: rgb(226, 226, 226); border-width: 1px; border-style: solid; border-radius: 50px; z-index: 1; left: 380px; top: 60px;">
+                    <img src="Assets/right.png" style="width: 10px; margin: 5px;">
+                </button>
+            </div>
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: 236px; position: relative; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; padding: 0px 18px; margin-top: 16px; margin-left: 0px;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 52px; position: relative; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(227, 229, 232); padding: 6px 0px; left: 0px; top: 0px;">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 11px); font-size: 15.75px; font-weight: bold; float: left; display: inline; margin-right: 5px;" data-center-y="true">날씨</label>
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 90px; position: relative; left: 0px; top: calc(50% - 12px); border-width: 1px; border-style: solid; border-color: rgb(226, 226, 226); border-radius: 20px; float: left; display: inline; height: 24px; padding: 3px;" data-center-y="true">
+                        <img src="Assets/weather1.png" style="width: 15px; margin: 0px 2px 7px 0px;">예보&nbsp;비교
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 8.5px); float: right; display: inline; font-size: 13.65px;" data-center-y="true">서울시 당산동4가</label>
+                </div>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: 150px; position: relative; float: left; margin-top: 10px; left: 0px; top: 0px; margin-left: -10px;">
+                    <img src="Assets/weather-left.png">
+                </button>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: 153px; position: relative; float: right; margin-top: 10px; left: 0px; top: 0px; margin-left: 0px;">
+                    <img src="Assets/weather-right.png">
+                </button>
+            </div>
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 420px; height: 236px; position: relative; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; padding: 0px 18px; margin-top: 16px; margin-left: 0px;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 52px; position: relative; background-color: rgba(0, 0, 0, 0); border-bottom: 1px solid rgb(227, 229, 232); padding: 6px 0px; left: 0px; top: 0px;" data-listener-click="AView:onAView1Click">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 11px); font-size: 15.75px; font-weight: bold; float: left; display: inline;" data-center-y="true">증시</label>
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 12px); border-style: none; float: left; display: inline; margin-left: 5px; margin-top: 5px;" data-center-y="true">
+                        <img src="Assets/info2.png" style="width: 14px;">
+                    </button>
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; top: calc(50% - 12px); border-style: none; float: right; display: inline; margin-left: 5px; margin-top: 2px;" data-center-y="true">
+                        <img src="Assets/return2.png" style="width: 16px;">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 8.5px); float: right; display: inline; font-size: 13.65px;" data-center-y="true">12.10. 14:21</label>
+                </div>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 170px; height: auto; position: relative; left: 0px; top: 0px; float: left; margin-left: 0px; margin-top: 0px;">
+                    <img src="Assets/stock_left.png">
+                </button>
+                <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 206px; height: 168px; position: relative; left: 0px; top: 0px; margin-left: -30px; float: right; margin-top: 0px;">
+                    <img src="Assets/stock_right.png">
+                </button>
+            </div>
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 240px; position: relative; background-color: rgba(0, 0, 0, 0); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; margin-top: 16px; padding: 0px 18px; margin-left: 0px; left: 0px;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 52px; position: relative; background-color: rgba(0, 0, 0, 0); border-bottom-style: none; padding: 6px 0px; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;" data-listener-click="AView:onAView1Click">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: 100%; height: 52px; position: relative; left: 0px; top: 6px; font-size: 18px; font-weight: bold; margin-left: 0px; margin-top: 0px; float: left;">VIP 특화 회원권 소노러스 출시</label>
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; margin-top: 0px; margin-bottom: 20px; margin-left: -70px; padding-right: 10px; float: right;">
+                        <img src="Assets/sonorous_ad.png" style="width: 50px;">
+                    </button>
+                </div>
+                <img data-base="AImage" data-class="AImage" class="AImage-Style aimage-blank" style="width: 195px; height: 130px; position: relative; left: 0px; top: 0px; background-image: url(&quot;Assets/hotel.jpg&quot;); text-align: center; border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 7px; margin-left: 0px; margin-top: 0px; float: left;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 174px; height: 130px; position: relative; float: right; background-color: rgba(0, 0, 0, 0); text-align: left; padding-top: 30px; padding-left: 5px; padding-right: 5px; border-top: 1px solid rgb(227, 229, 232); border-bottom: 1px solid rgb(227, 229, 232);">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; display: block;">40년간 쌓아온 소노만의</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: block; margin-top: 0px;">하우 를 바탕으로 고객</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; top: 0px; left: 0px; display: block;">는 모든 공간에 정성을&nbsp;</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: block;">습니다.</label>
+                </div>
+            </div>
+            <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 510px; position: relative; left: 0px; top: 0px; margin-left: 0px; margin-top: 16px; background-color: rgb(244, 246, 250); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px;">
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: auto; height: 49px; position: relative; background-color: rgba(0, 0, 0, 0); border-bottom-style: none; padding: 6px 0px 6px 18px; left: 0px; top: 0px; margin-left: 0px; margin-top: 0px;" data-listener-click="AView:onAView1Click">
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 11px); font-size: 15.75px; font-weight: bold; float: left; display: inline; margin-left: 0px; margin-top: 0px;" data-center-y="true">위젯보드</label>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 384px; height: 176px; position: relative; margin-left: auto; margin-right: auto; background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); border-radius: 8px; padding: 8px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 179.5px; height: 100%; position: relative; float: left; background-color: rgb(255, 255, 255); left: 0px; top: 0px; margin-top: 0px;">
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 15.75px; font-weight: bold; left: 0px; top: 0px; margin-left: 10px; margin-top: 5px;">캘린더</label>
+                        <div data-base="AView" data-class="AView" class="AView-Style" style="width: 180px; height: 60px; position: relative; margin-top: 0px; left: 0px; top: 0px; font-size: 49.5px; background-color: rgba(0, 0, 0, 0);">
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; display: inline-block; font-family: sans-selif; margin-left: 5px; font-size: 45px;">12.11</label>
+                            <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: 0px; font-size: 13.65px;">수</label>
+                        </div>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; font-size: 14.7px; color: rgb(96, 96, 96); text-decoration-line: underline; margin-left: 15px; margin-top: 40px;">로그인하기</label>
+                    </div>
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="height: 120px; position: relative; float: right; background-color: rgb(255, 255, 255); width: 160px; top: 0px; background-image: url(&quot;Assets/calendar.png&quot;); background-repeat: no-repeat; background-size: 100% 100%; margin-top: 30px; left: 0px; margin-left: -10px;" data-background-option="stretch"></div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 384px; height: 192px; position: relative; background-color: rgb(255, 255, 255); border-radius: 8px; border-width: 1px; border-style: solid; border-color: rgb(227, 229, 232); margin-left: auto; margin-right: auto; margin-top: 16px;">
+                    <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 50px; position: relative; left: 0px; background-color: rgba(0, 0, 0, 0); top: 0px; padding: 14px 8px 0px 15px;">
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 64px; height: 16px; position: relative; left: 0px; top: calc(50% - 8px); border-style: none; border-color: rgba(0, 0, 0, 0); margin-left: 0px; float: left; margin-right: 5px;" data-center-y="true">
+                            <img src="Assets/vibe.png" style="width: 64px;">
+                        </button>
+                        <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 7.5px); border-style: none; border-color: rgba(0, 0, 0, 0); float: right; margin-left: 5px;" data-center-y="true">
+                            <img src="Assets/return2.png" style="width: 16px;">
+                        </button>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 8.5px); color: rgb(96, 96, 96); margin-left: 0px; margin-top: 0px; float: right; font-size: 13.65px;" data-center-y="true">다른 추천 보기</label>
+                        <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 11px); font-size: 15.75px; font-weight: bold; float: left;" data-center-y="true">슬기로운육아꿀팁</label>
+                    </div>
+                    <div data-base="AFlexLayout" data-class="AFlexLayout" class="AFlexLayout-Style" style="width: 348px; height: 126px; position: relative; margin-left: auto; margin-right: auto; justify-content: space-between;">
+                        <div style="position: relative; box-sizing: border-box;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108px; height: 126px; position: relative; left: 0px; top: 0px;">
+                                <img src="Assets/15minute.png" style="width: 108px; height: 126px;">
+                            </button>
+                        </div>
+                        <div style="position: relative; box-sizing: border-box;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108px; height: 126px; position: relative; left: 0px; top: 0px;">
+                                <img src="Assets/15minute.png" style="width: 108px; height: 126px;">
+                            </button>
+                        </div>
+                        <div style="position: relative; box-sizing: border-box;">
+                            <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 108px; height: 126px; position: relative; left: 0px; top: 0px;">
+                                <img src="Assets/15minute.png" style="width: 108px; height: 126px;">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div data-base="AView" data-class="AView" class="AView-Style" style="width: 100%; height: 65px; position: relative; background-color: rgba(0, 0, 0, 0); font-size: 14.7px; padding: 20px 23px 23px 22px; margin-top: 10px; margin-left: 0px;">
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: 22px; height: 22px; position: relative; margin-top: 0px; float: left; top: calc(50% - 11px);" data-center-y="true">
+                        <img src="Assets/squareNaver.png" style="width: 22px; margin: 0px 0px 5px;">
+                    </button>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; top: calc(50% - 10px); font-weight: bold; margin-left: 0px; margin-top: 0px; float: left;" data-center-y="true">&nbsp;모바일 네이버 메인</label>
+                    <label data-base="ALabel" data-class="ALabel" class="ALabel-Style" style="width: auto; height: auto; position: relative; left: 0px; top: calc(50% - 10px); float: left;" data-center-y="true">&nbsp;열기</label>
+                    <button data-base="AButton" data-class="AButton" class="AButton-Style" style="width: auto; height: auto; position: relative; left: 0px; float: right; background-color: rgba(0, 0, 0, 0); top: calc(50% - 8px);" data-center-y="true">
+                        <img src="Assets/right.png" style="width: 10px;">
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

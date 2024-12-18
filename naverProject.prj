@@ -38,6 +38,22 @@
             "name": "naverProjectApp_global.stl",
             "relType": 1,
             "path": "Template\\"
+          },
+          {
+            "type": 4,
+            "name": "isExpended.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
+          },
+          {
+            "type": 4,
+            "name": "isFlipped.stl",
+            "action": 8,
+            "relType": 1,
+            "path": "Template\\",
+            "comment": ""
           }
         ]
       },
@@ -251,12 +267,6 @@
           {
             "type": 8,
             "name": "news8.png",
-            "relType": 1,
-            "path": "Assets\\"
-          },
-          {
-            "type": 8,
-            "name": "뉴스1.png",
             "relType": 1,
             "path": "Assets\\"
           },
@@ -703,6 +713,96 @@
             "name": "chzzk_last.png",
             "relType": 1,
             "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "AD.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "weather2.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "weather-left.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "weather-right.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "info2.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "return2.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "stock_left.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "stock_right.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "greenumbrella.jpg",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "x.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "seoulsinmun.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "spam.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "cardpanGrey.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "tabpanBlue.png",
+            "relType": 1,
+            "path": "Assets\\"
+          },
+          {
+            "type": 8,
+            "name": "Btngrey.png",
+            "relType": 1,
+            "path": "Assets\\"
           }
         ]
       },
@@ -729,14 +829,6 @@
                 "relType": 1,
                 "path": "Source\\",
                 "comment": ""
-              },
-              {
-                "type": 3,
-                "name": "main.lay",
-                "action": 6,
-                "relType": 1,
-                "path": "Source\\",
-                "comment": ""
               }
             ]
           },
@@ -745,16 +837,8 @@
             "name": "SubView",
             "children": [
               {
-                "type": 2,
-                "name": "SubView2.cls",
-                "action": 5,
-                "relType": 1,
-                "path": "Source\\",
-                "comment": ""
-              },
-              {
                 "type": 3,
-                "name": "SubView2.lay",
+                "name": "submain.lay",
                 "action": 6,
                 "relType": 1,
                 "path": "Source\\",
@@ -762,7 +846,15 @@
               },
               {
                 "type": 2,
-                "name": "SubView3.cls",
+                "name": "submain.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "subpannel.cls",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\",
@@ -770,7 +862,7 @@
               },
               {
                 "type": 3,
-                "name": "SubView3.lay",
+                "name": "subpannel.lay",
                 "action": 6,
                 "relType": 1,
                 "path": "Source\\",
@@ -778,7 +870,7 @@
               },
               {
                 "type": 2,
-                "name": "subView1.cls",
+                "name": "subcard.cls",
                 "action": 5,
                 "relType": 1,
                 "path": "Source\\",
@@ -786,11 +878,70 @@
               },
               {
                 "type": 3,
-                "name": "subView1.lay",
+                "name": "subcard.lay",
                 "action": 6,
                 "relType": 1,
                 "path": "Source\\",
                 "comment": ""
+              },
+              {
+                "type": 2,
+                "name": "subpannel2.cls",
+                "action": 5,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "subpannel2.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "list1.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\",
+                "comment": ""
+              },
+              {
+                "type": 3,
+                "name": "list2.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\"
+              },
+              {
+                "type": 3,
+                "name": "list3.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\"
+              },
+              {
+                "type": 3,
+                "name": "list4.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\"
+              },
+              {
+                "type": 3,
+                "name": "list5.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\"
+              },
+              {
+                "type": 3,
+                "name": "list6.lay",
+                "action": 6,
+                "relType": 1,
+                "path": "Source\\"
               }
             ]
           },

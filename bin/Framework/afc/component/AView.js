@@ -1770,5 +1770,19 @@ AView.prototype.reset = function()
 	});
 };
 
+	onALabel1Click(comp, info, e)
+	{
+
+		//TODO:edit here
+
+	}
+
+	onAView1Click(comp, info, e)
+	{
+
+		//TODO:edit here
+
+	}
+
 
 

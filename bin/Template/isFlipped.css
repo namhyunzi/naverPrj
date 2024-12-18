@@ -1,0 +1,16 @@
+
+.isFlipped {
+}
+
+.isFlipped .change_card {
+  display: none !important;
+}
+
+.isFlipped:hover .basic_card {
+  display: none !important;
+}
+
+.isFlipped:hover .change_card {
+  display: block !important;
+}
+

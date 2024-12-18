@@ -1,0 +1,19 @@
+
+.mouse1
+{
+}
+
+.mouse21{}
+.mouse21:hover
+{
+	display: none !important;
+}
+
+.mouse2{
+	display: block !important;
+}
+.mouse2:hover
+{
+	display: none !important;
+}
+

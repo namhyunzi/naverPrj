@@ -1,0 +1,6 @@
+{
+  "styleName": "isExpended",
+  "items": {
+    "isExpended": "\n.isExpended\n{\n\tposition: absolute;\n    top: 110px;\n    left: 50%;\n    width: 706px;\n    height: 335px;\n    background-color: #fff;\n    z-index: 100;\n    padding: 15px 14px 9px 15px;\n    border-radius: 8px;\n    box-shadow: 0 0 0 1px #e3e5e8, 0 4px 8px 0 rgba(0, 0, 0, .3);\n    box-sizing: border-box;\n    transform: translate(-50%);\n}\n\n\n\n\n\n\n"
+  }
+}

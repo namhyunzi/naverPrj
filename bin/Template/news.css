@@ -1,0 +1,21 @@
+
+.news
+{	
+	display: none !important;
+}
+
+.news.hover
+{
+	display: block !important;
+}
+
+.news2
+{	
+	display: block !important;
+}
+
+.news2.hover
+{
+	display: none !important;
+}
+

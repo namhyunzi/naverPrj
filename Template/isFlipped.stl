@@ -1,0 +1,6 @@
+{
+  "styleName": "isFlipped",
+  "items": {
+    "isFlipped": ".isFlipped {\n}\n\n.isFlipped .change_card {\n  display: none;\n}\n\n.isFlipped:hover .basic_card {\n  display: none;\n}\n\n.isFlipped:hover .change_card {\n  display: block;\n}\n\n\n"
+  }
+}
